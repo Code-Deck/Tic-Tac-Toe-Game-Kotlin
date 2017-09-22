@@ -100,6 +100,21 @@ fun main(Args: Array<String>) {
             printGame()
             break
         }
+        if (row1[0] == "X" && row2[0] == "X" && row3[0] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[1] == "X" && row2[1] == "X" && row3[1] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[2] == "X" && row2[2] == "X" && row3[2] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
         if (row1[0] == "X" && row2[1] == "X" && row3[2] == "X") {
             println("\nGame Over. Player X is the winner.\n")
             break
@@ -121,6 +136,21 @@ fun main(Args: Array<String>) {
             break
         }
         if (row3[0] == "O" && row3[1] == "O" && row3[2] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[0] == "O" && row2[0] == "O" && row3[0] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[1] == "O" && row2[1] == "O" && row3[1] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[2] == "O" && row2[2] == "O" && row3[2] == "O") {
             println("\nGame Over. Player O is the winner.\n")
             printGame()
             break
@@ -159,6 +189,21 @@ fun main(Args: Array<String>) {
             printGame()
             break
         }
+        if (row1[0] == "X" && row2[0] == "X" && row3[0] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[1] == "X" && row2[1] == "X" && row3[1] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[2] == "X" && row2[2] == "X" && row3[2] == "X") {
+            println("\nGame Over. Player X is the winner.\n")
+            printGame()
+            break
+        }
         if (row1[0] == "X" && row2[1] == "X" && row3[2] == "X") {
             println("\nGame Over. Player X is the winner.\n")
             printGame()
@@ -168,7 +213,6 @@ fun main(Args: Array<String>) {
             println("\nGame Over. Player X is the winner.\n")
             break
         }
-
         if (row1[0] == "O" && row1[1] == "O" && row1[2] == "O") {
             println("\nGame Over. Player O is the winner.\n")
             printGame()
@@ -179,6 +223,21 @@ fun main(Args: Array<String>) {
             break
         }
         if (row3[0] == "O" && row3[1] == "O" && row3[2] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[0] == "O" && row2[0] == "O" && row3[0] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[1] == "O" && row2[1] == "O" && row3[1] == "O") {
+            println("\nGame Over. Player O is the winner.\n")
+            printGame()
+            break
+        }
+        if (row1[2] == "O" && row2[2] == "O" && row3[2] == "O") {
             println("\nGame Over. Player O is the winner.\n")
             printGame()
             break
