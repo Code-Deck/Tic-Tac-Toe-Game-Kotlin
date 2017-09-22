@@ -1,4 +1,3 @@
-
 var row1: Array<String> = Array(3, {"Unclaimed"})
 var row2: Array<String> = Array(3, {"Unclaimed"})
 var row3: Array<String> = Array(3, {"Unclaimed"})
@@ -8,21 +7,21 @@ var opponentName: String = String()
 fun printGame() {
     print("Row 1: ")
     for (i in row1.indices) {
-        System.out.print(row1[i] + " ")
+        print(row1[i] + " ")
     }
 
     println()
 
     print("Row 2: ")
     for (i in row2.indices) {
-        System.out.print(row2[i] + " ")
+        print(row2[i] + " ")
     }
 
     println()
 
     print("Row 3: ")
     for (i in row3.indices) {
-        System.out.print(row3[i] + " ")
+        print(row3[i] + " ")
     }
 
     println()
